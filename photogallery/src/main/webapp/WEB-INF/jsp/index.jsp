@@ -40,7 +40,6 @@
                     <img src="/image.action?${article.saveName}" class="thumb"/>
                 </td>
             </tr>
-            ${article.id} <br/>
         </c:forEach>
         <c:if test="${empty list}">
             <tr>
